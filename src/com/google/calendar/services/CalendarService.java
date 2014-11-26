@@ -61,12 +61,12 @@ public class CalendarService {
 	    * กรณีที่ไม่ได้ใช้งาน Network ผ่าน proxy server ให้ remark ส่วนของ 	 Properties ทั้งหมด 
 	    * 
 	    ***********************************/
-	   java.util.Properties props = System.getProperties(); 
+	   /*java.util.Properties props = System.getProperties(); 
 	   System.getProperties().put(PROXY_SET_NAME,PROXY_SET); 
 	   props.put(PROXY_HOST_NAME,PROXY_HOST);//proxy
 	   props.put(PROXY_PORT_NAME,PROXY_PORT);//port
 	   //System.setProperties(props); 
-	   System.setProperties(props);	
+	   System.setProperties(props);	*/
 	   //=======================================
 	   scopes = new ArrayList<String>();
 	   scopes.add(CalendarScopes.CALENDAR);
@@ -93,9 +93,9 @@ public class CalendarService {
 		try {
 			//Service Account
 			//EMAIL ADDRESS
-			String accoutId ="163550671930-r6rb70mqe49aausdpuc1qm8lnl8hpfr0@developer.gserviceaccount.com";
+			String accoutId ="16355xxxxxxx-r6rb70mqe49aausdpuc1qm8lnl8hpfr0@developer.gserviceaccount.com";
 
-			String pathKey12 = "D:\\LHDEV\\git\\DevCalProject1-89dd7e566f0f.p12";// "/LHDEV/git/DevCalProject1-89dd7e566f0f.p12";
+			String pathKey12 = "D:\\LHDEV\\git\\DevCalProject1-xxxx7e566f0f.p12";// "/LHDEV/git/DevCalProject1-89dd7e566f0f.p12";
 
 			//PROJECT NAME
 			String projectName ="DevCalProject1";
