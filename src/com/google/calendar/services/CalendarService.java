@@ -29,6 +29,7 @@ import java.util.List;
 
 /**
  * @author Zdoem Pwong   go2doem@gmail.com
+ * project : calendar
  */
 public class CalendarService {
 	//private static final String APPLICATION_NAME = "google-calendar-massiveshare";
