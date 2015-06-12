@@ -50,15 +50,14 @@ public class CalendarService {
 	 private final static String PROXY_SET_NAME = "proxySet";
 	 private final static String PROXY_SET = "true";
 	 private final static String PROXY_HOST_NAME = "proxyHost";
-	 private final static String PROXY_HOST = "132.146.1.15"; //production
-	 //private final static String PROXY_HOST = "132.146.1.51";//test
+	 private final static String PROXY_HOST = "192.55.55.55"; //production
 	 private final static String PROXY_PORT_NAME = "proxyPort";
 	 private final static String PROXY_PORT = "8080";
 
 	static{
 	   /*******************************************
 	    * 
-	    * �óշ���������ҹ Network ��ҹ proxy server ��� remark ��ǹ�ͧ 	 Properties ������ 
+	    * ¡Ã³Õ·ÕèäÁèä´éãªé§Ò¹ Network ¼èÒ¹ proxy server ãËé remark ÊèÇ¹¢Í§ 	 Properties ·Ñé§ËÁ´ 
 	    * 
 	    ***********************************/
 	   /*java.util.Properties props = System.getProperties(); 
@@ -114,7 +113,7 @@ public class CalendarService {
 	}
 	
 	   /**
-     * Subscribe à un calendrier
+     * Subscribe Ã  un calendrier
      *
      * Voir la documentation de google :
      * https://developers.google.com/google-apps/calendar/v3/reference/calendarList/insert?hl=fr
@@ -130,7 +129,7 @@ public class CalendarService {
     }
 
     /**
-     * Créer un Calendrier
+     * CrÃ©er un Calendrier
      *
      * Voir la documentation de google :
      * https://developers.google.com/google-apps/calendar/v3/reference/calendars/insert
