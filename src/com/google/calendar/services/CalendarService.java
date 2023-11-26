@@ -28,7 +28,7 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @author Zdoem Pwong   go2doem@gmail.com
+ * @author Zdoem Pwong   
  * project : calendar
  */
 public class CalendarService {
