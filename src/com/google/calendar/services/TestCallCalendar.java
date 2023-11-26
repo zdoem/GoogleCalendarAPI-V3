@@ -11,7 +11,7 @@ import com.google.api.services.calendar.model.EventDateTime;
 
 
 /**
- * @author Zdoem Pwong   go2doem@gmail.com
+ * @author Zdoem Pwong   
  */
 public class TestCallCalendar {
 
@@ -22,8 +22,8 @@ public class TestCallCalendar {
 			calendarService.init();
 			//-----------------------For CALENDAR Manager------------------------------------------------------------------------
 			/*********************************
-			 * สำหรับ Test Calendar ก็สามารถทำได้ โดย Test ทีละ method ลอง TestInsert
-			 *  แล้ว copy เอา CalendarId มาจัดการ  Get,Delete ได้ตามสะดวก
+			 * รร“รรร‘ยบ Test Calendar ยกรงรร’รร’รยถยทร“รคยดรฉ รขยดร Test ยทร•ร…ร method ร…รยง TestInsert
+			 *  รกร…รฉร copy ร รร’ CalendarId รร’ยจร‘ยดยกร’ร  Get,Delete รคยดรฉยตร’รรรยดรยก
 			 * ******************************/
 			//1.Show Calendar 
 			testShowCalendars(calendarService);
@@ -33,7 +33,7 @@ public class TestCallCalendar {
 			/*result insert calendar
 			calendarInsert idCalendar : v4tm3f07v9fl249d4dbvr8eqio@group.calendar.google.com
 			ID: cirl6615lb4lmni7avos1rvlrg@group.calendar.google.com
-			Summary: "ทดสอบ CALENDAR#333*/
+			Summary: "ยทยดรรยบ CALENDAR#333*/
 			
 			//3.Get Calendar
 			//String idCalendar ="v4tm3f07v9fl249d4dbvr8eqio@group.calendar.google.com";
@@ -46,8 +46,8 @@ public class TestCallCalendar {
 			
 			//--------------------------------------For Event Manager---------------------------------------------------------
 			/**********************************
-			 * -ให้ test ด้วยการเอา Remark ออกโดย Test Insert Event ก่อน หรือจะ Test List Event ก่อนได้
-			 * แนะนำให้ Test ที่ละ method  แล้ว copy eventId มาจัดการ  Get,Update,Delete ต่อไป 
+			 * -รฃรรฉ test ยดรฉรรยกร’รร รร’ Remark รรยกรขยดร Test Insert Event ยกรจรยน รรร—รยจร Test List Event ยกรจรยนรคยดรฉ
+			 * รกยนรยนร“รฃรรฉ Test ยทร•รจร…ร method  รกร…รฉร copy eventId รร’ยจร‘ยดยกร’ร  Get,Update,Delete ยตรจรรคยป 
 			 * ********************************/
 			//For Event Manager 
 			//1. Insert Event & First Error			
@@ -78,7 +78,7 @@ public class TestCallCalendar {
 	
 	private static void testInsertCalendar(CalendarService calendarService) throws Exception{
 		View.header("Insert CALENDAR");
-		Calendar cal = calendarService.calendarInsert("ทดสอบ CALENDAR#333");
+		Calendar cal = calendarService.calendarInsert("ยทยดรรยบ CALENDAR#333");
 		View.display(cal);
 		
 	}
@@ -105,8 +105,8 @@ public class TestCallCalendar {
 	private static void testEventInsert(CalendarService calendarService,String calendarId) throws Exception{
 		View.header("Create Event");
 		Event event = new Event();
-		event.setSummary("ทดสอบ-Event#1");
-	   	event.setDescription("ทดสอบครับทดสอบ เมื่อรันเสร็จให้กลับไปดู Calendar ในหน้า browser Refesh ดู");
+		event.setSummary("ยทยดรรยบ-Event#1");
+	   	event.setDescription("ยทยดรรยบยครร‘ยบยทยดรรยบ ร รร—รจรรร‘ยนร รรรงยจรฃรรฉยกร…ร‘ยบรคยปยดร Calendar รฃยนรยนรฉร’ browser Refesh ยดร");
 	   	  
 	   	DateTime start2 = DateTime.parseRfc3339("2014-11-25T10:30:00.000+07:00");
 	   	DateTime end2 = DateTime.parseRfc3339("2014-11-25T11:30:00.000+07:00");
