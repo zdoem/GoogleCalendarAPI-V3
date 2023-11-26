@@ -8,7 +8,7 @@ import com.google.api.services.calendar.model.Events;
 
 
 /**
- * @author Zdoem Pwong   go2doem@gmail.com
+ * @author Zdoem Pwong   
  */
 public class View {
 
